@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F36F06D579BECD75828FCA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36F34736E22514937F72A3 /* ViewController.m */; };
+		8F36F18C6817EBD095F9E36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F36F74369E999DD2D37860B /* Assets.xcassets */; };
+		8F36F3ED52515B90C1E115D0 /* DMResizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36FDEE6C1E562DA09B122C /* DMResizerViewController.m */; };
+		8F36F5233F547A8046C0D7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F36F2B92AC4B2A2A8474668 /* LaunchScreen.storyboard */; };
+		8F36F58FDD7EF0CB15C9AB68 /* DMActivityInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36F36BA65D3DC40103D247 /* DMActivityInstagram.m */; };
+		8F36F5CF0A9ACCE1F77051CE /* mona_lisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F36F655B48EEA796144152F /* mona_lisa.jpg */; };
+		8F36F856F3E9A9EE570E6B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36F7F63DDF9683AB8CAB18 /* main.m */; };
+		8F36FA1CE24969549F071123 /* DMResizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F36FF9278835F8561B7D84A /* DMResizerViewController.xib */; };
+		8F36FCC335FE9729F7BF3140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F36F4F94F28B4B61D234255 /* Main.storyboard */; };
+		8F36FCFA937C7EC9E036CE6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36F39B595336BE5540C4FA /* AppDelegate.m */; };
+		8F36FEE55D3C6A9B5705760A /* DMColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36FBE400E45DC0A80101C1 /* DMColorPickerView.m */; };
+		8F36FF774491CE252BFBAC1A /* AlsoShareWithInstagram.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8F36FCD6736A796BD2C0BCEB /* AlsoShareWithInstagram.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F36F18F3E434673A6D27A10 /* DMActivityInstagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMActivityInstagram.h; sourceTree = "<group>"; };
+		8F36F2C0DA5ACDF9EEE02040 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F36F34736E22514937F72A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F36F36BA65D3DC40103D247 /* DMActivityInstagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMActivityInstagram.m; sourceTree = "<group>"; };
+		8F36F39B595336BE5540C4FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F36F5247B72D1347BB638CB /* DMColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMColorPickerView.h; sourceTree = "<group>"; };
+		8F36F552F655F016A8558062 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F36F582FFA80EADC3F6B323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		8F36F655B48EEA796144152F /* mona_lisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mona_lisa.jpg; sourceTree = "<group>"; };
+		8F36F74369E999DD2D37860B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F36F7F63DDF9683AB8CAB18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F36F983B21EC0781F509EFF /* DMResizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMResizerViewController.h; sourceTree = "<group>"; };
+		8F36FA1B0B6685890D0F7162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F36FBE400E45DC0A80101C1 /* DMColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMColorPickerView.m; sourceTree = "<group>"; };
+		8F36FCD6736A796BD2C0BCEB /* AlsoShareWithInstagram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AlsoShareWithInstagram.mm; sourceTree = "<group>"; };
+		8F36FDEE6C1E562DA09B122C /* DMResizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMResizerViewController.m; sourceTree = "<group>"; };
+		8F36FF04CC971794DC9D96EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F36FF9278835F8561B7D84A /* DMResizerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMResizerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F36F594B071C743523FCDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F36F31305AE84EA34E5FDED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F36F7F63DDF9683AB8CAB18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F36F70B2253410E697D89A4 /* DMActivityInstagram */ = {
+			isa = PBXGroup;
+			children = (
+				8F36F5247B72D1347BB638CB /* DMColorPickerView.h */,
+				8F36FBE400E45DC0A80101C1 /* DMColorPickerView.m */,
+				8F36F18F3E434673A6D27A10 /* DMActivityInstagram.h */,
+				8F36F36BA65D3DC40103D247 /* DMActivityInstagram.m */,
+				8F36F983B21EC0781F509EFF /* DMResizerViewController.h */,
+				8F36FDEE6C1E562DA09B122C /* DMResizerViewController.m */,
+				8F36FF9278835F8561B7D84A /* DMResizerViewController.xib */,
+			);
+			path = DMActivityInstagram;
+			sourceTree = "<group>";
+		};
+		8F36F7E45570B9D6E0015759 = {
+			isa = PBXGroup;
+			children = (
+				8F36FD6D94C198E64557A178 /* ShareWithInstagram */,
+			);
+			sourceTree = "<group>";
+		};
+		8F36FCD009E4FBB7DACD1AE4 /* Unity Native Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				8F36FCD6736A796BD2C0BCEB /* AlsoShareWithInstagram.mm */,
+				8F36F70B2253410E697D89A4 /* DMActivityInstagram */,
+			);
+			path = "Unity Native Plugin";
+			sourceTree = "<group>";
+		};
+		8F36FD6D94C198E64557A178 /* ShareWithInstagram */ = {
+			isa = PBXGroup;
+			children = (
+				8F36F582FFA80EADC3F6B323 /* Info.plist */,
+				8F36F74369E999DD2D37860B /* Assets.xcassets */,
+				8F36F2B92AC4B2A2A8474668 /* LaunchScreen.storyboard */,
+				8F36F31305AE84EA34E5FDED /* Supporting Files */,
+				8F36F2C0DA5ACDF9EEE02040 /* AppDelegate.h */,
+				8F36F39B595336BE5540C4FA /* AppDelegate.m */,
+				8F36F4F94F28B4B61D234255 /* Main.storyboard */,
+				8F36F552F655F016A8558062 /* ViewController.h */,
+				8F36F34736E22514937F72A3 /* ViewController.m */,
+				8F36FCD009E4FBB7DACD1AE4 /* Unity Native Plugin */,
+				8F36F655B48EEA796144152F /* mona_lisa.jpg */,
+			);
+			path = ShareWithInstagram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F36F6350696F4E9D8E8DFE0 /* ShareWithInstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F36F1B2E96456E418863643 /* Build configuration list for PBXNativeTarget "ShareWithInstagram" */;
+			buildPhases = (
+				8F36FC888EF2B33BAECECBE4 /* Sources */,
+				8F36F594B071C743523FCDDD /* Frameworks */,
+				8F36FC7095DB6022A5A369D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareWithInstagram;
+			productName = ShareWithInstagram;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F36F6A8E07ABDB4FC4AB3A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZYXW;
+			};
+			buildConfigurationList = 8F36FA6D607023959515A643 /* Build configuration list for PBXProject "ShareWithInstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F36F7E45570B9D6E0015759;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F36F6350696F4E9D8E8DFE0 /* ShareWithInstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F36FC7095DB6022A5A369D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F36F18C6817EBD095F9E36C /* Assets.xcassets in Resources */,
+				8F36F5233F547A8046C0D7C9 /* LaunchScreen.storyboard in Resources */,
+				8F36FCC335FE9729F7BF3140 /* Main.storyboard in Resources */,
+				8F36F5CF0A9ACCE1F77051CE /* mona_lisa.jpg in Resources */,
+				8F36FA1CE24969549F071123 /* DMResizerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F36FC888EF2B33BAECECBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F36F856F3E9A9EE570E6B66 /* main.m in Sources */,
+				8F36FCFA937C7EC9E036CE6A /* AppDelegate.m in Sources */,
+				8F36F06D579BECD75828FCA6 /* ViewController.m in Sources */,
+				8F36FF774491CE252BFBAC1A /* AlsoShareWithInstagram.mm in Sources */,
+				8F36FEE55D3C6A9B5705760A /* DMColorPickerView.m in Sources */,
+				8F36F58FDD7EF0CB15C9AB68 /* DMActivityInstagram.m in Sources */,
+				8F36F3ED52515B90C1E115D0 /* DMResizerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F36F2B92AC4B2A2A8474668 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F36FF04CC971794DC9D96EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8F36F4F94F28B4B61D234255 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F36FA1B0B6685890D0F7162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F36F00CD447441FE9353C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareWithInstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyxw.ShareWithInstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F36F42EF406CFAC11C53258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareWithInstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyxw.ShareWithInstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F36F88B5F9AB3566A51AA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F36FD06223994113E1C8B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F36F1B2E96456E418863643 /* Build configuration list for PBXNativeTarget "ShareWithInstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F36F42EF406CFAC11C53258 /* Debug */,
+				8F36F00CD447441FE9353C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F36FA6D607023959515A643 /* Build configuration list for PBXProject "ShareWithInstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F36F88B5F9AB3566A51AA0A /* Debug */,
+				8F36FD06223994113E1C8B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F36F6A8E07ABDB4FC4AB3A0 /* Project object */;
+}
